@@ -15,8 +15,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    
-    public void onBase(View v) {
+
+    /**
+     * 基础使用
+     * @param v
+     */
+    public void onTest1(View v) {
         startActivity(new Intent(this, BaseActivity.class));
     }
+
+    /**
+     * 加载成Drawable
+     */
+    public void onTest2(View v) {
+        startActivity(new Intent(this, DrawableActivity.class));
+    }
+
 }
