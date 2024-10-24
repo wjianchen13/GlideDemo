@@ -13,8 +13,33 @@ DiskCacheStrategy.AUTOMATIC: 表示根据图片的来源自动选择合适的缓
 通过选择适当的 DiskCacheStrategy，你可以根据需求来控制 Glide 如何缓存图片到磁盘上，平衡网络请求、缓存空间和图片加载性能。
 
 
+# 参考文档
+Android图片加载框架最全解析（六），探究Glide的自定义模块功能
+https://zhuanlan.zhihu.com/p/92027112
 
+踩坑啦！你确定你的Glide不会发生内存泄漏吗？
+https://www.cnblogs.com/button123/p/15656988.html
 
+Android深入了解Glide
+https://blog.csdn.net/weixin_44780781/article/details/136192856
+
+Glide 配置多个自定义的AppGlideModule
+https://blog.51cto.com/u_16099264/12001283
+
+Android Glide加载指定大小的Bitmap到内存
+https://blog.51cto.com/u_16213675/11579810
+
+Android图片加载框架最全解析（六），探究Glide的自定义模块功能
+https://cloud.tencent.com/developer/article/1015781
+
+Android图片加载框架最全解析（七），实现带进度的Glide图片加载功能
+https://cloud.tencent.com/developer/inventory/4525/article/1015796
+
+Android—Glide使用教程（四）
+https://juejin.cn/post/6982815840408174599
+
+Android图片加载框架最全解析（二），从源码的角度理解Glide的执行流程
+https://cloud.tencent.com/developer/article/1015744
 
 
 
