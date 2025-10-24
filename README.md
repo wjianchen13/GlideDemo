@@ -2,6 +2,11 @@
 glide 基础使用 https://www.jianshu.com/p/41b496da5926
 
 
+# 编译环境
+android-studio-2024.3.2.15
+gradle插件：8.10.1
+gradle版本：gradle-8.11.1-bin
+
 在 Glide 中，DiskCacheStrategy 枚举类用于设置图片的磁盘缓存策略，决定了 Glide 如何缓存图片到磁盘上。
 
 以下是 DiskCacheStrategy 枚举类的常用取值及其含义：
